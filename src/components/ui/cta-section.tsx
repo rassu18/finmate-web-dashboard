@@ -28,18 +28,7 @@ export const CTASection = () => {
                 </Button>
               </div>
               
-              <div className="flex items-center justify-center gap-8 text-muted-foreground">
-                <div className="flex items-center gap-2">
-                  <div className="flex">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-primary text-primary" />
-                    ))}
-                  </div>
-                  <span className="font-medium">4.8/5 Rating</span>
-                </div>
-                <div className="hidden sm:block w-px h-6 bg-border"></div>
-                <div className="font-medium">10,000+ Downloads</div>
-                <div className="hidden sm:block w-px h-6 bg-border"></div>
+              <div className="flex items-center justify-center text-muted-foreground">
                 <div className="font-medium">100% Private</div>
               </div>
             </div>

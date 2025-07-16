@@ -31,12 +31,6 @@ const features = [
     title: "Mobile Optimized",
     description: "Designed specifically for mobile usage with an intuitive and clean interface.",
     gradient: "from-orange-500 to-orange-600"
-  },
-  {
-    icon: DollarSign,
-    title: "Multi-Currency",
-    description: "Support for multiple currencies including INR, USD, EUR and more.",
-    gradient: "from-pink-500 to-pink-600"
   }
 ];
 
